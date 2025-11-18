@@ -17,26 +17,25 @@ This project is an end-to-end real-time analytics pipeline for processing, analy
 📁 Project Structure
 
 .
-├── Ingest/
-│   ├── app/
-│   │   ├── services/              # Kafka producer & ClickHouse consumer
-│   │   ├── routes/                # FastAPI routes (ticket ingestion)
-│   │   ├── schemas/               # Avro schema file
-│   │   └── main.py                # FastAPI app entry point
-│   ├── docker-compose.yml        # Kafka & Zookeeper Docker setup
-│   └── ticket.avsc               # Avro schema for Kafka serialization
-├── Modules/
-│   ├── db.py                     # ClickHouse query connector
-│   ├── preprocessing.py          # Data cleaning
-│   ├── forecasting.py            # Time series logic
-│   ├── agent_insights.py         # Agentic AI pipeline
-├── Pages/
-│   ├── Home.py
-│   ├── Priority_and_Escalation.py
-│   └── Time_Insights.py
-├── streamlit_app.py              # Streamlit entry point
-└── requirements.txt              # Python dependencies
-
+├── Ingest/<br>
+│   ├── app/<br>
+│   │   ├── services/              # Kafka producer & ClickHouse consumer<br>
+│   │   ├── routes/                # FastAPI routes (ticket ingestion)<br>
+│   │   ├── schemas/               # Avro schema file<br>
+│   │   └── main.py                # FastAPI app entry point<br>
+│   ├── docker-compose.yml        # Kafka & Zookeeper Docker setup<br>
+│   └── ticket.avsc               # Avro schema for Kafka serialization<br>
+├── Modules/<br>
+│   ├── db.py                     # ClickHouse query connector<br>
+│   ├── preprocessing.py          # Data cleaning<br>
+│   ├── forecasting.py            # Time series logic<br>
+│   ├── agent_insights.py         # Agentic AI pipeline<br>
+├── Pages/<br>
+│   ├── Home.py<br>
+│   ├── Priority_and_Escalation.py<br>
+│   └── Time_Insights.py<br>
+├── streamlit_app.py              # Streamlit entry point<br>
+└── requirements.txt              # Python dependencies<br>
 
 
 ⸻
