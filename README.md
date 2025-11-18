@@ -16,7 +16,7 @@ This project is an end-to-end real-time analytics pipeline for processing, analy
 📁 Project Structure
 
 .
-├── Ingest/
+├── Ingest/ <br>
 │   ├── app/
 │   │   ├── services/              # Kafka producer & ClickHouse consumer
 │   │   ├── routes/                # FastAPI routes (ticket ingestion)
