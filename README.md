@@ -1,4 +1,3 @@
-Sure! Here’s a clean and professional README.md file tailored for your real-time Kafka + ClickHouse + FastAPI + Streamlit pipeline for Jira-style ticket analytics:
 
 ⸻
 
