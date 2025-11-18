@@ -17,9 +17,9 @@ This project is an end-to-end real-time analytics pipeline for processing, analy
 
 .
 ├── Ingest/ <br>
-│   ├── app/
-│   │   ├── services/              # Kafka producer & ClickHouse consumer
-│   │   ├── routes/                # FastAPI routes (ticket ingestion)
+│   ├── app/ <br>
+│   │   ├── services/              # Kafka producer & ClickHouse consumer <br>
+│   │   ├── routes/                # FastAPI routes (ticket ingestion) <br>
 │   │   ├── schemas/               # Avro schema file
 │   │   └── main.py                # FastAPI app entry point
 │   ├── docker-compose.yml        # Kafka & Zookeeper Docker setup
